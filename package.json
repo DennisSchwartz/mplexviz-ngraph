@@ -1,0 +1,69 @@
+{
+  "name": "mplexviz-ngraph",
+  "description": " A visualisation module for multilayer networks as modelled by mplexnet using ngraph.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/DennisSchwartz/mplexviz-ngraph",
+  "author": {
+    "name": "Dennis Schwartz",
+    "email": "dennis.schwartz1989@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DennisSchwartz/mplexviz-ngraph.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DennisSchwartz/mplexviz-ngraph/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/DennisSchwartz/mplexviz-ngraph/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/mplexviz.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1",
+    "build": "mkdirp build && browserify -r ./:mplexviz-ngraph -o build/ngraph.js",
+    "build-browser": "npm run build",
+    "install": "npm run build",
+    "watch": "watchify -r ./:mplexviz-ngraph -v -o build/ngraph.js",
+    "w": "prunner \"npm run sniper\" \"npm run watch\"",
+    "sniper": "sniper ."
+  },
+  "dependencies": {
+    "babyparse": "^0.4.3",
+    "backbone": "^1.2.3",
+    "jquery": "^2.1.4",
+    "lodash": "^3.10.1",
+    "mplexnet": "^0.1.0",
+    "ngraph.graph": "0.0.12",
+    "ngraph.three": "0.0.11"
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.0",
+    "browserify": "6.x",
+    "sniper": "0.x",
+    "watchify": "^1.0.6",
+    "prunner": "1.x"
+  },
+  "sniper": {
+    "js": [
+      "/build/ngraph.js"
+    ],
+    "snippets": [
+      "examples"
+    ],
+    "first": "simple"
+  },
+  "keywords": [
+    "networks",
+    "multilayer",
+    "multiplex",
+    "complex",
+    "network",
+    "biojs",
+    "biology",
+    "big data",
+    "biojs"
+  ]
+}
