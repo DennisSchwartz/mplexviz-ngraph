@@ -34,11 +34,12 @@ var startRendering = function (contents) {
         inputFiles: 'single',
         inputFileDelimiter: ';',
         sourceFieldLabel: 'source_name',
-        targetFieldLabel: 'target_name'
+        targetFieldLabel: 'target_name',
+        loglevel: 0
     };
 
     input.edges = contents;
-    console.log(input.edges);
+    console.log(input.data);
 
     var app = require("mplexviz-ngraph");
     var instance = new app({
