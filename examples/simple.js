@@ -38,7 +38,7 @@ var startRendering = function (contents) {
         loglevel: 0
     };
 
-    input.edges = contents;
+    input.data = contents;
     console.log(input.data);
 
     var app = require("mplexviz-ngraph");
