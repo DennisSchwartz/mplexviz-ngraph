@@ -32,9 +32,9 @@ var startRendering = function (contents) {
 
     input.options = {
         inputFiles: 'single',
-        inputFileDelimiter: ';',
-        sourceFieldLabel: 'source_name',
-        targetFieldLabel: 'target_name',
+        inputFileDelimiter: ',',
+        sourceFieldLabel: 'source',
+        targetFieldLabel: 'target',
         loglevel: 0
     };
 
