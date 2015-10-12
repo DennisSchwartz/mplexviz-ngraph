@@ -1,6 +1,7 @@
 npm-debug.log
 node_modules
 example
+examples-out
 docs
 .idea
 *.tgz
