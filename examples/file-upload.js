@@ -6,6 +6,7 @@
 
 //input.edges = 'source,l1,l2,target,l1,l2\n1,A,X,2,A,X\n1,A,X,1,B,X\n1,A,X,4,B,X\n1,B,X,1,B,Y\n1,B,X,3,B,X\n\
 //1,B,X,4,B,X\n3,B,X,4,B,X\n4,B,X,3,A,Y\n3,A,Y,3,A,X\n3,A,Y,2,A,Y';
+
 var instance;
 function readSingleFile(evt) {
     //Retrieve the first (and only!) File from the FileList object
@@ -24,18 +25,15 @@ function readSingleFile(evt) {
 }
 
 document.getElementById('inputFile').addEventListener('change', readSingleFile, false);
-//var x = document.getElementById("inputFile");
-//var reader = new FileReader();
-//console.log(reader.readAsText(x));
 
 var startRendering = function (contents) {
     var input = {};
 
     input.options = {
         inputFiles: 'single',
-        inputFileDelimiter: ';',
-        sourceFieldLabel: 'source_name',
-        targetFieldLabel: 'target_name',
+        inputFileDelimiter: ',',
+        sourceFieldLabel: 'source',
+        targetFieldLabel: 'target',
         loglevel: 0
     };
 
@@ -56,7 +54,3 @@ var stopRendering = function () {
     instance.stop();
 
 };
-
-
-//var test = new Network(edges, nodes, aspects);
-

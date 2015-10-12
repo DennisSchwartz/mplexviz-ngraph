@@ -2,14 +2,21 @@
 
 [![NPM version](http://img.shields.io/npm/v/mplexviz-ngraph.svg)](https://www.npmjs.org/package/mplexviz-ngraph) 
 
->  A visualisation module for multilayer networks as modelled by mplexnet using ngraph.
+>  A visualisation module for multilayer networks as modelled by [mplexnet](https://github.com/DennisSchwartz/mplexnet)
+ using [ngraph.three](https://github.com/anvaka/ngraph.three).
 
 ## Getting Started
-Install the module with: `npm install mplexviz-ngraph`
+This is a visualisation module for multilayer network data. It is still very much work in progress so beware 
+when you update to later versions as your code might break.
 
+You can install the module with: `npm install mplexviz-ngraph`
+
+To test it try something like this:
 ```javascript
-var ngraph = require('mplexviz-ngraph');
-ngraph.hello("biojs"); // "hello biojs"
+var Viz = require('mplexviz-ngraph');
+
+var app =
+
 ```
 
 ## Documentation
