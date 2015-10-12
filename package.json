@@ -1,7 +1,7 @@
 {
   "name": "mplexviz-ngraph",
-  "description": " A visualisation module for multilayer networks as modelled by mplexnet using ngraph.",
-  "version": "0.2.0",
+  "description": "A visualisation module for multilayer networks as modelled by mplexnet using ngraph.",
+  "version": "0.2.1",
   "homepage": "https://github.com/DennisSchwartz/mplexviz-ngraph",
   "author": {
     "name": "Dennis Schwartz",
@@ -36,8 +36,8 @@
     "backbone": "^1.2.3",
     "jquery": "^2.1.4",
     "lodash": "^3.10.1",
-    "mplexnet": "^0.2.2",
-    "multilayerlayout3d": "file:../multilayerlayout3d/multilayerlayout3d-0.1.0.tgz",
+    "mplexnet": "0.2.2",
+    "multilayerlayout3d": "0.1.1",
     "ngraph.graph": "0.0.12",
     "ngraph.three": "0.0.11"
   },
@@ -66,6 +66,8 @@
     "biojs",
     "biology",
     "big data",
-    "biojs"
+    "visualisation",
+    "visualization",
+    "ngraph"
   ]
 }
