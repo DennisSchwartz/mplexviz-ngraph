@@ -7,33 +7,102 @@
 
 ## Getting Started
 This is a visualisation module for multilayer network data. It is still very much work in progress so beware 
-when you update to later versions as your code might break.
+of updates  as your code might break.
 
 You can install the module with: `npm install mplexviz-ngraph`
 
 To test it try something like this:
+
 ```javascript
 var Viz = require('mplexviz-ngraph');
 
-var app =
+var data = 'source,l1,l2,target,l1,l2\n1,A,X,2,A,X\n1,A,X,1,B,X\n1,A,X,4,B,X\n1,B,X,1,B,Y\n1,B,X,3,B,X\n\
+           1,B,X,4,B,X\n3,B,X,4,B,X\n4,B,X,3,A,Y\n3,A,Y,3,A,X\n3,A,Y,2,A,Y';
+           
+var instance = new Viz({
+    el: rootDiv,
+    data: data
+});
+
+instance.render();
 
 ```
 
-## Documentation
+## Specifying options
 
-#### .hello(name)
-
-**Parameter**: `name`
-**Type**: `String`
-**Example**: `biojs`
-
-The 'hello' method is responsible for showing a name.
-
-How to use this method
+You can specify some options for the mplexnet module. It is mostly setting options for the data input. 
 
 ```javascript
-ngraph.hello('biojs'); // "hello biojs"
+
+/*
+ * These are the default options for a network
+ *
+ *   Log levels:
+ *       1: Errors and important info
+ *       2: More info
+ *       3: Detail debug messages incl. data
+ */
+var Options = {
+    inputFiles: 'single',
+    inputFileDelimiter: ',',
+    sourceFieldLabel: 'source',
+    targetFieldLabel: 'target',
+    loglevel: 0
+};
+
 ```
+
+## Input format
+
+There will be more detailed description of the input format soon.
+
+For now, there are two possible ways to pass data:
+
+* A single csv data object of edges between node-layer objects
+```
+source,l1,l2,target,l1,l2
+1,A,X,2,A,X
+1,A,X,1,B,X
+1,A,X,4,B,X
+1,B,X,1,B,Y
+1,B,X,3,B,X
+1,B,X,4,B,X
+3,B,X,4,B,X
+4,B,X,3,A,Y
+3,A,Y,3,A,X
+3,A,Y,2,A,Y
+```
+* Three separate files/objects 
+    * A list of aspects
+    ```
+    Time
+    ```
+    * A list of node-layer objects with a unique id
+    ```
+    id,Time,name
+    1,now,1
+    2,now,2
+    3,now,3
+    4,now,4
+    5,then,1
+    6,then,2
+    7,then,3
+    8,then,4
+    ```
+    * A list of edges between these ids
+    ```source, target
+       1, 4
+       2, 3
+       2, 4
+       1, 5
+       2, 6
+       3, 8
+       4, 8
+       5, 6
+       5, 7
+       6, 7
+     ```
+
 
 ## Contributing
 

@@ -27,9 +27,8 @@ function readSingleFile(evt) {
 document.getElementById('inputFile').addEventListener('change', readSingleFile, false);
 
 var startRendering = function (contents) {
-    var input = {};
 
-    input.options = {
+    var options = {
         inputFiles: 'single',
         inputFileDelimiter: ',',
         sourceFieldLabel: 'source',
@@ -37,14 +36,18 @@ var startRendering = function (contents) {
         loglevel: 0
     };
 
-    input.data = contents;
-    console.log(input.data);
+    var data = contents;
+    console.log(data);
+
+    if (instance) {
+        instance.stop();
+    }
 
     var app = require("mplexviz-ngraph");
     instance = new app({
         el: rootDiv,
-        text: 'biojs',
-        input: input
+        data: data,
+        options: options
     });
 
     instance.render();
