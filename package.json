@@ -36,7 +36,8 @@
     "backbone": "^1.2.3",
     "jquery": "^2.1.4",
     "lodash": "^3.10.1",
-    "mplexnet": "^0.1.0",
+    "mplexnet": "file:../mplexnet/mplexnet-0.2.2.tgz",
+    "multilayerlayout3d": "file:../multilayerlayout3d/multilayerlayout3d-0.1.0.tgz",
     "ngraph.graph": "0.0.12",
     "ngraph.three": "0.0.11"
   },
