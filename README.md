@@ -11,7 +11,7 @@ of updates  as your code might break.
 
 You can install the module with: `npm install mplexviz-ngraph`
 
-To test it try something like this:
+To test it, try something like this:
 
 ```javascript
 var Viz = require('mplexviz-ngraph');
@@ -42,13 +42,21 @@ You can specify some options for the mplexnet module. It is mostly setting optio
  *       2: More info
  *       3: Detail debug messages incl. data
  */
-var Options = {
+var options = {
     inputFiles: 'single',
     inputFileDelimiter: ',',
     sourceFieldLabel: 'source',
     targetFieldLabel: 'target',
     loglevel: 0
 };
+
+var instance = new Viz({
+    el: rootDiv,
+    data: data,
+    options: options
+});
+
+instance.render();
 
 ```
 
@@ -101,7 +109,8 @@ source,l1,l2,target,l1,l2
        5, 6
        5, 7
        6, 7
-     ```
+   
+    ```
 
 
 ## Contributing
