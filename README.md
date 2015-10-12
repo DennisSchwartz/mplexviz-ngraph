@@ -98,7 +98,8 @@ source,l1,l2,target,l1,l2
     8,then,4
     ```
     * A list of edges between these ids
-    ```source, target
+    ```
+    source, target
        1, 4
        2, 3
        2, 4
