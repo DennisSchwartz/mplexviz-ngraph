@@ -24,10 +24,10 @@
   "main": "lib/mplexviz.js",
   "scripts": {
     "test": "echo 'Error: no test specified' && exit 1",
-    "build": "mkdirp build && browserify -r ./:mplexviz-ngraph -o build/ngraph.js",
+    "build": "mkdirp build && browserify -r ./:mplexviz-ngraph -o build/bundle.js",
     "build-browser": "npm run build",
     "install": "npm run build",
-    "watch": "watchify -r ./:mplexviz-ngraph -v -o build/ngraph.js",
+    "watch": "watchify -r ./:mplexviz-ngraph -v -o build/bundle.js",
     "w": "prunner \"npm run sniper\" \"npm run watch\"",
     "sniper": "sniper ."
   },
@@ -50,7 +50,7 @@
   },
   "sniper": {
     "js": [
-      "/build/ngraph.js"
+      "/build/bundle.js"
     ],
     "snippets": [
       "examples"
