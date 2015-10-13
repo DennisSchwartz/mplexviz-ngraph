@@ -33,6 +33,8 @@ var startRendering = function (contents) {
         inputFileDelimiter: ',',
         sourceFieldLabel: 'source',
         targetFieldLabel: 'target',
+        interLayerDistance: 200,
+        planes: true,
         loglevel: 0
     };
 
@@ -54,6 +56,7 @@ var startRendering = function (contents) {
 };
 
 var stopRendering = function () {
-    instance.stop();
-
+    if (instance) {
+        instance.stop();
+    }
 };
