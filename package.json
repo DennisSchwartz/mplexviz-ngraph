@@ -52,11 +52,15 @@
     "js": [
       "/build/bundle.js"
     ],
+    "css": [
+      "/style/bootstrap.css"
+    ],
     "snippets": [
       "examples"
     ],
     "first": "simple"
   },
+  "style": "style/*.css",
   "keywords": [
     "networks",
     "multilayer",
