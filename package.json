@@ -39,7 +39,8 @@
     "mplexnet": "0.2.5",
     "multilayerlayout3d": "0.1.1",
     "ngraph.graph": "0.0.12",
-    "ngraph.three": "0.0.11"
+    "ngraph.three": "0.0.11",
+    "root-require": "^0.3.1"
   },
   "devDependencies": {
     "mkdirp": "^0.5.0",

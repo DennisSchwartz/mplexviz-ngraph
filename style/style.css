@@ -2,12 +2,16 @@ input {
     padding: 5px;
 }
 
+small {
+    color: #a60000 !important;
+}
+
 .margin {
     margin: 5px;
 }
 
 .row {
-    padding: none;
+    padding: 0;
 }
 
 .form-inline {
