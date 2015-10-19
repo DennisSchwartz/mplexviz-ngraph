@@ -53,6 +53,7 @@
       "/build/bundle.js"
     ],
     "css": [
+      "/style/style.css",
       "/style/bootstrap.css"
     ],
     "snippets": [
