@@ -1,7 +1,7 @@
 {
   "name": "mplexviz-ngraph",
   "description": "A visualisation module for multilayer networks as modelled by mplexnet using ngraph.",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "homepage": "https://github.com/DennisSchwartz/mplexviz-ngraph",
   "author": {
     "name": "Dennis Schwartz",
@@ -37,10 +37,9 @@
     "jquery": "^2.1.4",
     "lodash": "^3.10.1",
     "mplexnet": "0.2.5",
-    "multilayerlayout3d": "0.1.1",
+    "multilayerlayout3d": "0.1.3",
     "ngraph.graph": "0.0.12",
-    "ngraph.three": "0.0.11",
-    "root-require": "^0.3.1"
+    "ngraph.three": "^0.0.12"
   },
   "devDependencies": {
     "mkdirp": "^0.5.0",

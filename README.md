@@ -6,8 +6,11 @@
  using [ngraph.three](https://github.com/anvaka/ngraph.three).
 
 ## Getting Started
-This is a visualisation module for multilayer network data. It is still very much work in progress so beware 
-of updates  as your code might break.
+This is a visualisation module for multilayer network data. 
+
+#### Beware:
+This project is still under active development and should only be used experimentally for now. Expect a more mature
+ version in the next few months. If you have suggestions and feature requests, feel free to contact me.
 
 You can install the module with: `npm install mplexviz-ngraph`
 
@@ -62,11 +65,11 @@ instance.render();
 
 ## Input format
 
-There will be more detailed description of the input format soon.
+There will be more detailed description of the input format soon. This maybe subject to change
 
 For now, there are two possible ways to pass data:
 
-* A single csv data object of edges between node-layer objects
+* A single csv data object of edges between node-layer objects (recommended)
 ```
 source,l1,l2,target,l1,l2
 1,A,X,2,A,X
@@ -115,7 +118,7 @@ source,l1,l2,target,l1,l2
 
 ## Contributing
 
-All contributions are welcome.
+I have a set of features I want to complete for now. When done, all contributions will be welcome.
 
 ## Support
 
