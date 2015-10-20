@@ -59,7 +59,7 @@
     "snippets": [
       "examples"
     ],
-    "first": "simple"
+    "first": "one"
   },
   "style": "style/*.css",
   "keywords": [
