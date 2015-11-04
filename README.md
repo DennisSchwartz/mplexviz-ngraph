@@ -46,7 +46,7 @@ You can specify some options for the mplexnet module. It is mostly setting optio
  *       3: Detail debug messages incl. data
  */
 var options = {
-    inputFiles: 'single',
+    inputFiles: 'csv',
     inputFileDelimiter: ',',
     sourceFieldLabel: 'source',
     targetFieldLabel: 'target',
