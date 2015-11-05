@@ -18,6 +18,19 @@ small {
     margin: 0;
 }
 
+#vis {
+    position: relative;
+}
+
+#vis canvas, #info {
+    position: absolute;
+}
+
+.modal-content {
+    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+}
+
 /*
     From http://stackoverflow.com/questions/11235206/twitter-bootstrap-form-file-element-upload-button
 */
