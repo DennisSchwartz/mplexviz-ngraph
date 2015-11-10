@@ -26,6 +26,10 @@ small {
     position: absolute;
 }
 
+#info-panel {
+    margin: 30px;
+}
+
 .modal-content {
     box-shadow: none!important;
     -webkit-box-shadow: none!important;
