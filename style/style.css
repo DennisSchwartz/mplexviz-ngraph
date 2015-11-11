@@ -31,7 +31,8 @@ small {
 }
 
 .panel-body {
-    width: 15em;
+    width: 10em;
+    overflow: auto;
 }
 
 .panel {
