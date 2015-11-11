@@ -30,10 +30,28 @@ small {
     margin: 30px;
 }
 
-.modal-content {
-    box-shadow: none!important;
-    -webkit-box-shadow: none!important;
+.panel-body {
+    width: 15em;
 }
+
+.panel {
+    background: none!important;
+}
+
+.panel-transparent {
+    background: none;
+    border-color: #000000;
+}
+
+.panel-transparent .panel-heading{
+    background: rgba(243,243,243,0.8)!important;
+}
+
+.panel-transparent .panel-body{
+    background: rgba(255, 255, 255, 0.2)!important;
+}
+
+
 
 /*
     From http://stackoverflow.com/questions/11235206/twitter-bootstrap-form-file-element-upload-button
