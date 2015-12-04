@@ -1,0 +1,34 @@
+{
+  "name": "mplexviz-ngraph",
+  "description": "A visualisation module for multilayer networks as modelled by mplexnet using ngraph.",
+  "main": "lib/mplexviz.js",
+  "authors": [
+    "Dennis Schwartz"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "networks",
+    "multilayer",
+    "multiplex",
+    "complex",
+    "network",
+    "biojs",
+    "biology",
+    "big",
+    "data",
+    "visualisation",
+    "visualization",
+    "ngraph"
+  ],
+  "homepage": "https://github.com/DennisSchwartz/mplexviz-ngraph",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
