@@ -1,4 +1,4 @@
-require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/lib/views/infoPanel.js":[function(require,module,exports){
+require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 /**
  * Created by ds on 05/11/15.
  */
@@ -113,7 +113,7 @@ var InfoPanel = Backbone.View.extend({
 
 
 module.exports = InfoPanel;
-},{"backbone":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/backbone/backbone.js","jquery":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/jquery/dist/jquery.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/lib/views/menuPanel.js":[function(require,module,exports){
+},{"backbone":5,"jquery":7}],2:[function(require,module,exports){
 /**
  * Created by ds on 19/10/15.
  */
@@ -227,7 +227,7 @@ var MenuPanel = Backbone.View.extend({
 });
 
 module.exports = MenuPanel;
-},{"../../package.json":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/package.json","backbone":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/backbone/backbone.js","lodash":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/lodash/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/lib/views/visPanel.js":[function(require,module,exports){
+},{"../../package.json":54,"backbone":5,"lodash":8}],3:[function(require,module,exports){
 /**
  * Created by ds on 19/10/15.
  */
@@ -529,7 +529,7 @@ function shadeBlend(p,c0,c1) {
 }
 
 module.exports = VisPanel;
-},{"../views/infoPanel":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/lib/views/infoPanel.js","backbone":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/backbone/backbone.js","jquery":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/jquery/dist/jquery.js","lodash":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/lodash/index.js","multilayerlayout3d":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/multilayerlayout3d/lib/multilayerlayout3d.js","ngraph.three":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.three/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/babyparse/babyparse.js":[function(require,module,exports){
+},{"../views/infoPanel":1,"backbone":5,"jquery":7,"lodash":8,"multilayerlayout3d":13,"ngraph.three":47}],4:[function(require,module,exports){
 /*
 	Baby Parse
 	v0.4.1
@@ -1376,7 +1376,7 @@ module.exports = VisPanel;
 
 })(typeof window !== 'undefined' ? window : this);
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/backbone/backbone.js":[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 (function (global){
 //     Backbone.js 1.2.3
 
@@ -3274,7 +3274,7 @@ module.exports = VisPanel;
 }));
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"jquery":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/jquery/dist/jquery.js","underscore":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/backbone/node_modules/underscore/underscore.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/backbone/node_modules/underscore/underscore.js":[function(require,module,exports){
+},{"jquery":7,"underscore":6}],6:[function(require,module,exports){
 //     Underscore.js 1.8.3
 //     http://underscorejs.org
 //     (c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
@@ -4824,7 +4824,7 @@ module.exports = VisPanel;
   }
 }.call(this));
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/jquery/dist/jquery.js":[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v2.1.4
  * http://jquery.com/
@@ -14036,7 +14036,7 @@ return jQuery;
 
 }));
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/lodash/index.js":[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 (function (global){
 /**
  * @license
@@ -26391,7 +26391,7 @@ return jQuery;
 }.call(this));
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/mplexnet/lib/mplexnet.js":[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 /*
  * mplexnet
  * https://github.com/DennisSchwartz/mplexnet
@@ -26986,7 +26986,7 @@ exports.EdgeCollection = EdgeCol;
 exports.Options = Options;
 
 module.exports = exports;
-},{"babyparse":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/babyparse/babyparse.js","backbone":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/backbone/backbone.js","lodash":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/lodash/index.js","xmldom":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/mplexnet/node_modules/xmldom/dom-parser.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/mplexnet/node_modules/xmldom/dom-parser.js":[function(require,module,exports){
+},{"babyparse":4,"backbone":5,"lodash":8,"xmldom":10}],10:[function(require,module,exports){
 function DOMParser(options){
 	this.options = options ||{locator:{}};
 	
@@ -27243,7 +27243,7 @@ if(typeof require == 'function'){
 	exports.DOMParser = DOMParser;
 }
 
-},{"./dom":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/mplexnet/node_modules/xmldom/dom.js","./sax":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/mplexnet/node_modules/xmldom/sax.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/mplexnet/node_modules/xmldom/dom.js":[function(require,module,exports){
+},{"./dom":11,"./sax":12}],11:[function(require,module,exports){
 /*
  * DOM Level 2
  * Object DOMException
@@ -28383,7 +28383,7 @@ if(typeof require == 'function'){
 	exports.XMLSerializer = XMLSerializer;
 }
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/mplexnet/node_modules/xmldom/sax.js":[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 //[4]   	NameStartChar	   ::=   	":" | [A-Z] | "_" | [a-z] | [#xC0-#xD6] | [#xD8-#xF6] | [#xF8-#x2FF] | [#x370-#x37D] | [#x37F-#x1FFF] | [#x200C-#x200D] | [#x2070-#x218F] | [#x2C00-#x2FEF] | [#x3001-#xD7FF] | [#xF900-#xFDCF] | [#xFDF0-#xFFFD] | [#x10000-#xEFFFF]
 //[4a]   	NameChar	   ::=   	NameStartChar | "-" | "." | [0-9] | #xB7 | [#x0300-#x036F] | [#x203F-#x2040]
 //[5]   	Name	   ::=   	NameStartChar (NameChar)*
@@ -28969,7 +28969,7 @@ if(typeof require == 'function'){
 }
 
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/multilayerlayout3d/lib/multilayerlayout3d.js":[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 /*
  * multilayerlayout3d
  * https://github.com/DennisSchwartz/multilayerlayout3d
@@ -29434,7 +29434,7 @@ function createLayout(graph, physicsSettings, options) {
  * Private Methods
  */
 function noop() { }
-},{"ngraph.events":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.events/index.js","ngraph.physics.simulator":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.events/index.js":[function(require,module,exports){
+},{"ngraph.events":14,"ngraph.physics.simulator":32}],14:[function(require,module,exports){
 module.exports = function(subject) {
   validateSubject(subject);
 
@@ -29524,7 +29524,7 @@ function validateSubject(subject) {
   }
 }
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout/index.js":[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 module.exports = createLayout;
 module.exports.simulator = require('ngraph.physics.simulator');
 
@@ -29839,7 +29839,7 @@ function createLayout(graph, physicsSettings) {
 
 function noop() { }
 
-},{"ngraph.events":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.events/index.js","ngraph.physics.simulator":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/index.js":[function(require,module,exports){
+},{"ngraph.events":14,"ngraph.physics.simulator":32}],16:[function(require,module,exports){
 /**
  * This module provides all required forces to regular ngraph.physics.simulator
  * to make it 3D simulator. Ideally ngraph.physics.simulator should operate
@@ -29863,7 +29863,7 @@ function createLayout(graph, physicsSettings) {
   return createLayout.get2dLayout(graph, physicsSettings);
 }
 
-},{"./lib/bounds":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/lib/bounds.js","./lib/createBody":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/lib/createBody.js","./lib/dragForce":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/lib/dragForce.js","./lib/eulerIntegrator":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/lib/eulerIntegrator.js","./lib/springForce":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/lib/springForce.js","ngraph.forcelayout":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout/index.js","ngraph.merge":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.merge/index.js","ngraph.quadtreebh3d":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.quadtreebh3d/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/lib/bounds.js":[function(require,module,exports){
+},{"./lib/bounds":17,"./lib/createBody":18,"./lib/dragForce":19,"./lib/eulerIntegrator":20,"./lib/springForce":21,"ngraph.forcelayout":15,"ngraph.merge":23,"ngraph.quadtreebh3d":25}],17:[function(require,module,exports){
 module.exports = function (bodies, settings) {
   var random = require('ngraph.random').random(42);
   var boundingBox =  { x1: 0, y1: 0, z1: 0, x2: 0, y2: 0, z2: 0 };
@@ -29962,14 +29962,14 @@ module.exports = function (bodies, settings) {
   }
 };
 
-},{"ngraph.random":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.random/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/lib/createBody.js":[function(require,module,exports){
+},{"ngraph.random":29}],18:[function(require,module,exports){
 var physics = require('ngraph.physics.primitives');
 
 module.exports = function(pos) {
   return new physics.Body3d(pos);
 }
 
-},{"ngraph.physics.primitives":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.physics.primitives/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/lib/dragForce.js":[function(require,module,exports){
+},{"ngraph.physics.primitives":24}],19:[function(require,module,exports){
 /**
  * Represents 3d drag force, which reduces force value on each step by given
  * coefficient.
@@ -29999,7 +29999,7 @@ module.exports = function (options) {
   return api;
 };
 
-},{"ngraph.expose":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.expose/index.js","ngraph.merge":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.merge/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/lib/eulerIntegrator.js":[function(require,module,exports){
+},{"ngraph.expose":22,"ngraph.merge":23}],20:[function(require,module,exports){
 /**
  * Performs 3d forces integration, using given timestep. Uses Euler method to solve
  * differential equation (http://en.wikipedia.org/wiki/Euler_method ).
@@ -30049,7 +30049,7 @@ function integrate(bodies, timeStep) {
   return (tx * tx + ty * ty + tz * tz)/bodies.length;
 }
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/lib/springForce.js":[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 /**
  * Represents 3d spring force, which updates forces acting on two bodies, conntected
  * by a spring.
@@ -30105,7 +30105,7 @@ module.exports = function (options) {
   return api;
 }
 
-},{"ngraph.expose":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.expose/index.js","ngraph.merge":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.merge/index.js","ngraph.random":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.random/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.expose/index.js":[function(require,module,exports){
+},{"ngraph.expose":22,"ngraph.merge":23,"ngraph.random":29}],22:[function(require,module,exports){
 module.exports = exposeProperties;
 
 /**
@@ -30151,7 +30151,7 @@ function augment(source, target, key) {
   }
 }
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.merge/index.js":[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 module.exports = merge;
 
 /**
@@ -30184,7 +30184,7 @@ function merge(target, options) {
   return target;
 }
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.physics.primitives/index.js":[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 module.exports = {
   Body: Body,
   Vector2d: Vector2d,
@@ -30251,7 +30251,7 @@ Vector3d.prototype.reset = function () {
   this.x = this.y = this.z = 0;
 };
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.quadtreebh3d/index.js":[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 /**
  * This is Barnes Hut simulation algorithm for 3d case. Implementation
  * is highly optimized (avoids recusion and gc pressure)
@@ -30646,7 +30646,7 @@ function setChild(node, idx, child) {
   else if (idx === 7) node.quad7 = child;
 }
 
-},{"./insertStack":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.quadtreebh3d/insertStack.js","./isSamePosition":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.quadtreebh3d/isSamePosition.js","./node":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.quadtreebh3d/node.js","ngraph.random":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.random/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.quadtreebh3d/insertStack.js":[function(require,module,exports){
+},{"./insertStack":26,"./isSamePosition":27,"./node":28,"ngraph.random":29}],26:[function(require,module,exports){
 module.exports = InsertStack;
 
 /**
@@ -30690,7 +30690,7 @@ function InsertStackElement(node, body) {
     this.body = body; // physical body which needs to be inserted to node
 }
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.quadtreebh3d/isSamePosition.js":[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 module.exports = function isSamePosition(point1, point2) {
     var dx = Math.abs(point1.x - point2.x);
     var dy = Math.abs(point1.y - point2.y);
@@ -30699,7 +30699,7 @@ module.exports = function isSamePosition(point1, point2) {
     return (dx < 1e-8 && dy < 1e-8 && dz < 1e-8);
 };
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.quadtreebh3d/node.js":[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 /**
  * Internal data structure to represent 3D QuadTree node
  */
@@ -30743,7 +30743,7 @@ module.exports = function Node() {
   this.back = 0;
 };
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.random/index.js":[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 module.exports = {
   random: random,
   randomIterator: randomIterator
@@ -30830,7 +30830,7 @@ function randomIterator(array, customRandom) {
     };
 }
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.graph/index.js":[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 /**
  * @fileOverview Contains definition of the core graph object.
  */
@@ -31409,9 +31409,9 @@ function makeLinkId(fromId, toId) {
   return hashCode(fromId.toString() + '👉 ' + toId.toString());
 }
 
-},{"ngraph.events":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.graph/node_modules/ngraph.events/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.graph/node_modules/ngraph.events/index.js":[function(require,module,exports){
-module.exports=require("/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.events/index.js")
-},{"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.events/index.js":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.events/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/index.js":[function(require,module,exports){
+},{"ngraph.events":31}],31:[function(require,module,exports){
+module.exports=require(14)
+},{"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.events/index.js":14}],32:[function(require,module,exports){
 /**
  * Manages a simulation of physical forces acting on bodies and springs.
  */
@@ -31689,7 +31689,7 @@ function physicsSimulator(settings) {
   }
 };
 
-},{"./lib/bounds":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/lib/bounds.js","./lib/createBody":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/lib/createBody.js","./lib/dragForce":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/lib/dragForce.js","./lib/eulerIntegrator":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/lib/eulerIntegrator.js","./lib/spring":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/lib/spring.js","./lib/springForce":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/lib/springForce.js","ngraph.events":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.events/index.js","ngraph.expose":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.expose/index.js","ngraph.merge":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.merge/index.js","ngraph.quadtreebh":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.quadtreebh/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/lib/bounds.js":[function(require,module,exports){
+},{"./lib/bounds":33,"./lib/createBody":34,"./lib/dragForce":35,"./lib/eulerIntegrator":36,"./lib/spring":37,"./lib/springForce":38,"ngraph.events":14,"ngraph.expose":39,"ngraph.merge":40,"ngraph.quadtreebh":42}],33:[function(require,module,exports){
 module.exports = function (bodies, settings) {
   var random = require('ngraph.random').random(42);
   var boundingBox =  { x1: 0, y1: 0, x2: 0, y2: 0 };
@@ -31771,14 +31771,14 @@ module.exports = function (bodies, settings) {
   }
 }
 
-},{"ngraph.random":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.random/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/lib/createBody.js":[function(require,module,exports){
+},{"ngraph.random":46}],34:[function(require,module,exports){
 var physics = require('ngraph.physics.primitives');
 
 module.exports = function(pos) {
   return new physics.Body(pos);
 }
 
-},{"ngraph.physics.primitives":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.physics.primitives/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/lib/dragForce.js":[function(require,module,exports){
+},{"ngraph.physics.primitives":41}],35:[function(require,module,exports){
 /**
  * Represents drag force, which reduces force value on each step by given
  * coefficient.
@@ -31807,7 +31807,7 @@ module.exports = function (options) {
   return api;
 };
 
-},{"ngraph.expose":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.expose/index.js","ngraph.merge":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.merge/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/lib/eulerIntegrator.js":[function(require,module,exports){
+},{"ngraph.expose":39,"ngraph.merge":40}],36:[function(require,module,exports){
 /**
  * Performs forces integration, using given timestep. Uses Euler method to solve
  * differential equation (http://en.wikipedia.org/wiki/Euler_method ).
@@ -31854,7 +31854,7 @@ function integrate(bodies, timeStep) {
   return (tx * tx + ty * ty)/max;
 }
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/lib/spring.js":[function(require,module,exports){
+},{}],37:[function(require,module,exports){
 module.exports = Spring;
 
 /**
@@ -31870,7 +31870,7 @@ function Spring(fromBody, toBody, length, coeff, weight) {
     this.weight = typeof weight === 'number' ? weight : 1;
 };
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/lib/springForce.js":[function(require,module,exports){
+},{}],38:[function(require,module,exports){
 /**
  * Represents spring force, which updates forces acting on two bodies, conntected
  * by a spring.
@@ -31922,13 +31922,13 @@ module.exports = function (options) {
   return api;
 }
 
-},{"ngraph.expose":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.expose/index.js","ngraph.merge":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.merge/index.js","ngraph.random":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.random/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.expose/index.js":[function(require,module,exports){
-module.exports=require("/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.expose/index.js")
-},{"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.expose/index.js":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.expose/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.merge/index.js":[function(require,module,exports){
-module.exports=require("/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.merge/index.js")
-},{"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.merge/index.js":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.merge/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.physics.primitives/index.js":[function(require,module,exports){
-module.exports=require("/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.physics.primitives/index.js")
-},{"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.physics.primitives/index.js":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.physics.primitives/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.quadtreebh/index.js":[function(require,module,exports){
+},{"ngraph.expose":39,"ngraph.merge":40,"ngraph.random":46}],39:[function(require,module,exports){
+module.exports=require(22)
+},{"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.expose/index.js":22}],40:[function(require,module,exports){
+module.exports=require(23)
+},{"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.merge/index.js":23}],41:[function(require,module,exports){
+module.exports=require(24)
+},{"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.physics.primitives/index.js":24}],42:[function(require,module,exports){
 /**
  * This is Barnes Hut simulation algorithm for 2d case. Implementation
  * is highly optimized (avoids recusion and gc pressure)
@@ -32254,7 +32254,7 @@ function setChild(node, idx, child) {
   else if (idx === 3) node.quad3 = child;
 }
 
-},{"./insertStack":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.quadtreebh/insertStack.js","./isSamePosition":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.quadtreebh/isSamePosition.js","./node":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.quadtreebh/node.js","ngraph.random":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.random/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.quadtreebh/insertStack.js":[function(require,module,exports){
+},{"./insertStack":43,"./isSamePosition":44,"./node":45,"ngraph.random":46}],43:[function(require,module,exports){
 module.exports = InsertStack;
 
 /**
@@ -32298,7 +32298,7 @@ function InsertStackElement(node, body) {
     this.body = body; // physical body which needs to be inserted to node
 }
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.quadtreebh/isSamePosition.js":[function(require,module,exports){
+},{}],44:[function(require,module,exports){
 module.exports = function isSamePosition(point1, point2) {
     var dx = Math.abs(point1.x - point2.x);
     var dy = Math.abs(point1.y - point2.y);
@@ -32306,7 +32306,7 @@ module.exports = function isSamePosition(point1, point2) {
     return (dx < 1e-8 && dy < 1e-8);
 };
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.quadtreebh/node.js":[function(require,module,exports){
+},{}],45:[function(require,module,exports){
 /**
  * Internal data structure to represent 2D QuadTree node
  */
@@ -32338,9 +32338,9 @@ module.exports = function Node() {
   this.right = 0;
 };
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.physics.simulator/node_modules/ngraph.random/index.js":[function(require,module,exports){
-module.exports=require("/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.random/index.js")
-},{"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.random/index.js":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.random/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.three/index.js":[function(require,module,exports){
+},{}],46:[function(require,module,exports){
+module.exports=require(29)
+},{"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.random/index.js":29}],47:[function(require,module,exports){
 var THREE = require('./lib/three');
 
 module.exports = function (graph, settings) {
@@ -32718,7 +32718,7 @@ module.exports = function (graph, settings) {
   }
 };
 
-},{"./lib/defaults":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.three/lib/defaults.js","./lib/three":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.three/lib/three.js","ngraph.forcelayout3d":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/index.js","ngraph.merge":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.three/node_modules/ngraph.merge/index.js","three.trackball":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.three/node_modules/three.trackball/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.three/lib/defaults.js":[function(require,module,exports){
+},{"./lib/defaults":48,"./lib/three":49,"ngraph.forcelayout3d":16,"ngraph.merge":50,"three.trackball":51}],48:[function(require,module,exports){
 /**
  * This module provides default settings for three.js graphics. There are a lot
  * of possible configuration parameters, and this file provides reasonable defaults
@@ -32778,12 +32778,12 @@ function linkRenderer(link) {
   link.geometry.verticesNeedUpdate = true;
 }
 
-},{"./three":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.three/lib/three.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.three/lib/three.js":[function(require,module,exports){
+},{"./three":49}],49:[function(require,module,exports){
 module.exports = require('three/three.min');
 
-},{"three/three.min":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.three/node_modules/three/three.min.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.three/node_modules/ngraph.merge/index.js":[function(require,module,exports){
-module.exports=require("/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.merge/index.js")
-},{"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.merge/index.js":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.merge/index.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.three/node_modules/three.trackball/index.js":[function(require,module,exports){
+},{"three/three.min":53}],50:[function(require,module,exports){
+module.exports=require(23)
+},{"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.forcelayout3d/node_modules/ngraph.merge/index.js":23}],51:[function(require,module,exports){
 /**
  * @author Eberhard Graether / http://egraether.com/
  * @author Mark Lundin / http://mark-lundin.com
@@ -33402,7 +33402,7 @@ function preventEvent( event ) { event.preventDefault(); }
 
 Trackball.prototype = Object.create(THREE.EventDispatcher.prototype);
 
-},{"three":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.three/node_modules/three/three.js"}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.three/node_modules/three/three.js":[function(require,module,exports){
+},{"three":52}],52:[function(require,module,exports){
 var self = self || {};// File:src/Three.js
 
 /**
@@ -69387,7 +69387,7 @@ if (typeof exports !== 'undefined') {
   this['THREE'] = THREE;
 }
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.three/node_modules/three/three.min.js":[function(require,module,exports){
+},{}],53:[function(require,module,exports){
 var self = self || {};// threejs.org/license
 'use strict';var THREE={REVISION:"72"};"function"===typeof define&&define.amd?define("three",THREE):"undefined"!==typeof exports&&"undefined"!==typeof module&&(module.exports=THREE);
 void 0!==self.requestAnimationFrame&&void 0!==self.cancelAnimationFrame||function(){for(var a=0,b=["ms","moz","webkit","o"],c=0;c<b.length&&!self.requestAnimationFrame;++c)self.requestAnimationFrame=self[b[c]+"RequestAnimationFrame"],self.cancelAnimationFrame=self[b[c]+"CancelAnimationFrame"]||self[b[c]+"CancelRequestAnimationFrame"];void 0===self.requestAnimationFrame&&void 0!==self.setTimeout&&(self.requestAnimationFrame=function(b){var c=Date.now(),g=Math.max(0,16-(c-a)),f=self.setTimeout(function(){b(c+
@@ -70271,7 +70271,7 @@ if (typeof exports !== 'undefined') {
   this['THREE'] = THREE;
 }
 
-},{}],"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/package.json":[function(require,module,exports){
+},{}],54:[function(require,module,exports){
 module.exports={
   "name": "mplexviz-ngraph",
   "description": "A visualisation module for multilayer networks as modelled by mplexnet using ngraph.",
@@ -70368,10 +70368,54 @@ var Mplexviz = Backbone.View.extend({
         this.el = opts.el;
         this.el.style.height = window.innerHeight ||
             document.documentElement.clientHeight || document.body.clientHeight;
+        this.state = opts.state || {};
         this.options = opts.options;
         this.data = opts.data;
         this.network = {};
         this.graph = {};
+
+        //let state = {
+        //    container: container,
+        //    elements: generateGraph(50, 800),
+        //    style: [ {
+        //        selector: 'node',
+        //        style: {
+        //            'content': 'data(id)'
+        //        }
+        //    }],
+        //    layout: { name: 'preset' },
+        //    ready: function(evt){ /* ... */ },
+        //
+        //    zoom: 1,
+        //    pan: { x: 0, y: 0 },
+        //
+        //    minZoom: 1e-50,
+        //    maxZoom: 1e50,
+        //    zoomingEnabled: true,
+        //    userZoomingEnabled: true,
+        //    panningEnabled: true,
+        //    userPanningEnabled: true,
+        //    boxSelectionEnabled: false,
+        //    selectionType: 'single',
+        //    touchTapThreshold: 8,
+        //    desktopTapThreshold: 4,
+        //    autolock: false,
+        //    autoungrabify: false,
+        //    autounselectify: false,
+        //
+        //    headless: false,
+        //    styleEnabled: true,
+        //    hideEdgesOnViewport: false,
+        //    hideLabelsOnViewport: false,
+        //    textureOnViewport: false,
+        //    motionBlur: false,
+        //    motionBlurOpacity: 0.2,
+        //    wheelSensitivity: 1,
+        //    pixelRatio: 1,
+        //    initrender: function(evt){ /* ... */ },
+        //    renderer: { /* ... */ }
+        //};
+
 
         /*
          Create Views
@@ -70446,4 +70490,4 @@ var Mplexviz = Backbone.View.extend({
 
 
 module.exports = Mplexviz;
-},{"./views/menuPanel":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/lib/views/menuPanel.js","./views/visPanel":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/lib/views/visPanel.js","backbone":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/backbone/backbone.js","jquery":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/jquery/dist/jquery.js","lodash":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/lodash/index.js","mplexnet":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/mplexnet/lib/mplexnet.js","ngraph.graph":"/Users/ds/Documents/Code/Thesis/BioJS/mplexviz-ngraph/node_modules/ngraph.graph/index.js"}]},{},[]);
+},{"./views/menuPanel":2,"./views/visPanel":3,"backbone":5,"jquery":7,"lodash":8,"mplexnet":9,"ngraph.graph":30}]},{},[]);
