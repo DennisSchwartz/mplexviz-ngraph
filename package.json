@@ -39,6 +39,7 @@
     "mplexnet": "0.2.7",
     "ngraph.events": "0.0.3",
     "ngraph.physics.simulator": "0.0.12",
+    "oboe": "^2.1.2",
     "three.trackball": "0.0.1"
   },
   "devDependencies": {
