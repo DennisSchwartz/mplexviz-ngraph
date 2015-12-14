@@ -1,6 +1,6 @@
 var App = require("mplexviz-ngraph");
 
-var data = 'source, l, target, l\n\
+var data = 'source, layer, target, layer\n\
 A, 1, B, 1\n\
 A, 1, C, 1\n\
 A, 1, D, 1\n\

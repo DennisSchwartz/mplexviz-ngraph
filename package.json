@@ -40,6 +40,7 @@
     "ngraph.events": "0.0.3",
     "ngraph.physics.simulator": "0.0.12",
     "oboe": "^2.1.2",
+    "ramda": "^0.18.0",
     "three.trackball": "0.0.1"
   },
   "devDependencies": {
