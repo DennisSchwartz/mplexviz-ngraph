@@ -61,9 +61,8 @@ PPARG,Transcriptional regulation, NFKB1,Transcriptional regulation';
 var instance = new App({
     el: rootDiv,
     data: data,
-    options: {
-        layout: 'Manual'
-    }
+    layout: 'Manual'
+
 });
 
 instance.render();
