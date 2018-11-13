@@ -3,8 +3,7 @@ node_js:
 - '10'
 deploy:
   provider: releases
-  api_key:
-    secure: XVIcpeXnLGIDCjcuxywW0KWi6ewmUnO5PTXV9sXtUL/WHnkcoPBOpybL2Z1mORYPQYrR60lVi7MfM3KK0ojWzU95HRRnolNNT0pph/AccxjerVbE6+0eoy4YTXIVuVuH0SHtbJoj3Cmf2OmHGSgWwrenmfYQ7tCq4mFbvvs/3RKV7TXZmDHzeLrhep8vKuZygRpNNot6KF271MFeY6HzC/nMRKY1IH3NY7S+yVYGScKLIHvmlJ7vyj7dSW2RPIwm3ov54tLvSCP9VoY0Q9HP9bg21ZA3bRuYkv+NUdkqWVTK5jDS13Li6p5cL10s8thSDvcQDKawbZQ0hZSmJcRBGtFJbEEP/ibRUz0rOw2Yu9JggQB1SNiLrD2gzXLx1/nPjMcccDwZwGmx0QVv83UnDBZcAaKnEiprR2YQUOcFNHK011J4maYDLkG98eiEevoEYtNqL5HUSEmxOdbNchhD5S3DcmEjWUT5iw+epfqeW4r5EtpBm0r+QSgdlI47NL/Z6MsLlVzXXAIpAML0tNFSuFrmrFLTVsi1cqZRYQLOPhiwae6FGy4UTMTxcGd11/43/j9b2wRh+beHWPRZTYUtv6Qm7xtTiz0OO/SxBLyBqlriYbCbZSisB/WIY0q5vEbcM889kAzKvF01eo0hxFjjyRA/9jU14SxuYmDG+n3N/fs=
+  api_key: ${GITHUB_TOKEN}
   file: build/bundle.js
   on:
     repo: DennisSchwartz/mplexviz-ngraph
