@@ -5,5 +5,6 @@ deploy:
   provider: releases
   api_key: ${GITHUB_TOKEN}
   file: build/bundle.js
+  skip_cleanup: true
   on:
     repo: DennisSchwartz/mplexviz-ngraph
