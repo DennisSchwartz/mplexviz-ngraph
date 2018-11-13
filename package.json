@@ -24,9 +24,8 @@
   "main": "lib/mplexviz.js",
   "scripts": {
     "test": "echo 'WARNING: no test specified'",
-    "build": "mkdirp build && browserify -r ./:mplexviz-ngraph -o build/bundle.js",
+    "build": "mkdirp build && browserify -p tinyify -r ./:mplexviz-ngraph -o build/bundle.js",
     "build-browser": "npm run build",
-    "install": "npm run build",
     "watch": "watchify -r ./:mplexviz-ngraph -v -o build/bundle.js",
     "w": "prunner \"npm run sniper\" \"npm run watch\"",
     "sniper": "sniper ."
@@ -47,6 +46,7 @@
     "mkdirp": "^0.5.0",
     "prunner": "1.x",
     "sniper": "0.x",
+    "tinyify": "^2.4.3",
     "watchify": "^3.11.0"
   },
   "sniper": {
