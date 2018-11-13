@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - 0.12
+- '10'
+deploy:
+  provider: releases
+  api_key:
+    secure: wxvHsvxQ0ERCsIMC2GSIF0SC9Utwggc/c3mFG0i2/E0uPXhdGBwEQcTD6gj29sXZhfbApiSxR4zeiWRTsh9u7GXSZ9tXESljMQjXJsEIU3qaxyK6jTxCO8bcFA/60W/YcNpwNkMBrdgwrf29pUBlf4oyIr2ukC/obAq5ZxbrocaqGufaSTrVrCR9QKyPhytKt6O6GgcO36KVtsMTDlDvPsKovF6nEJVwsRbjLYSqP7S/lF85/Bu2DVCSzSG+yWYkDrF16257YGJmZa1Igl3Qh3d6EtpiDv+C60J1PGAMj34i7lvuu8h6WUHYPGk8KFsGaWMNMUmSDgP27MniC7n+/Tnw8GQc2ihqAooPcW/L0I2Z84ZbqHvCVn5w6MXbYLiGLX8YD6okib3aeMvE1Aw1hYci0G8iPUTORkucApTmmQp6ZXnDAkN4s552riTf2QZqu2ZmifW32VLxyfLE/Kt67xOIiQEgVccNyD9Ju9YNd6CqTVeJtuR/l0OtIYpf+KIpU4B2c6ZcVn6dQb+ZQICRz1nFd5dNxcrANi1Y3WuVYFnP8fYLga1rbay3xIpJe2Mx+32JYxMGNTZi9aVDWUAcKMAqYFk5sOwZzDfGr9Hb6P1aqhZsUvvx/MhaJIreMBkyk3scBwYNoBxHG4tD+iyVsBqpCGyYq9vPpJoZUmv1xWM=
+  file: build/bundle.js
+  on:
+    repo: DennisSchwartz/mplexviz-ngraph
