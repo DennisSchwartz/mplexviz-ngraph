@@ -7,4 +7,5 @@ deploy:
   file: build/bundle.js
   skip_cleanup: true
   on:
-    repo: DennisSchwartz/mplexviz-ngraph
+    branch: master
+    tags: true
