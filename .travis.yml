@@ -7,5 +7,4 @@ deploy:
   file: build/bundle.js
   skip_cleanup: true
   on:
-    branch: master
     tags: true
