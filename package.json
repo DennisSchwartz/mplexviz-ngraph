@@ -1,7 +1,7 @@
 {
   "name": "mplexviz-ngraph",
   "description": "A visualisation module for multilayer networks as modelled by mplexnet using ngraph.",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "homepage": "https://github.com/DennisSchwartz/mplexviz-ngraph",
   "author": {
     "name": "Dennis Schwartz",
