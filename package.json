@@ -50,12 +50,12 @@
     "watchify": "^3.11.0"
   },
   "sniper": {
-    "js": [
-      "/build/bundle.js"
+    "buildJS": [
+      "https://github.com/DennisSchwartz/mplexviz-ngraph/releases/download/v1.1.0/bundle.js"
     ],
-    "css": [
-      "/style/style.css",
-      "/style/bootstrap.css"
+    "buildCSS": [
+      "https://cdn.jsdelivr.net/gh/DennisSchwartz/mplexviz-ngraph@1.1.0/style/style.css",
+      "https://cdn.jsdelivr.net/gh/DennisSchwartz/mplexviz-ngraph@1.1.0/style/bootstrap.css"
     ],
     "snippets": [
       "examples"
