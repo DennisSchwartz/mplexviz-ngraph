@@ -51,11 +51,11 @@
   },
   "sniper": {
     "buildJS": [
-      "https://github.com/DennisSchwartz/mplexviz-ngraph/releases/download/v1.1.0/bundle.js"
+      "https://github.com/DennisSchwartz/mplexviz-ngraph/releases/download/v1.1.4/bundle.js"
     ],
     "buildCSS": [
-      "https://cdn.jsdelivr.net/gh/DennisSchwartz/mplexviz-ngraph@1.1.0/style/style.css",
-      "https://cdn.jsdelivr.net/gh/DennisSchwartz/mplexviz-ngraph@1.1.0/style/bootstrap.css"
+      "https://cdn.jsdelivr.net/gh/DennisSchwartz/mplexviz-ngraph@1.1.4/style/style.css",
+      "https://cdn.jsdelivr.net/gh/DennisSchwartz/mplexviz-ngraph@1.1.4/style/bootstrap.css"
     ],
     "snippets": [
       "examples"
